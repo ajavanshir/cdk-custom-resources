@@ -14,6 +14,9 @@ const project = new awscdk.AwsCdkTypeScriptApp({
     'Typescript',
     'Deployment',
   ],
+  buildWorkflow: false,
+  releaseWorkflow: false,
+  pullRequestTemplate: false,
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
